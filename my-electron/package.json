@@ -1,11 +1,13 @@
 {
-  "name": "simple-electron",
+  "name": "my-electron",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "src/main.js",
+  "author": "yhorie",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.4.4"
   },
-  "author": "yhorie <yuk.horie@gmail.com>",
-  "license": "MIT"
+  "scripts": {
+    "start": "electron ."
+  }
 }
