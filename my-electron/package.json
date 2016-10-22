@@ -9,5 +9,8 @@
   },
   "scripts": {
     "start": "electron ."
+  },
+  "devDependencies": {
+    "devtron": "^1.4.0"
   }
 }
